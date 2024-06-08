@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #3389;
+    background-color: #e2e7f0;
 }
 
 header, footer{
@@ -46,4 +46,15 @@ display: block;
 
 .nav-item a:hover {
     background-color: #111;
+}
+
+.main-text {
+    float: left;
+
+}
+
+.main-photo {
+
+    width: 100;
+    height: 100px;
 }
