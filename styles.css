@@ -33,8 +33,10 @@ main {
 
 .nav-photo {
     float: left;
-    height: 50px;
+    height: 40px;
 }
+
+
 
 .nav-item a {
 display: block;
@@ -54,7 +56,25 @@ display: block;
 }
 
 .main-photo {
-
-    width: 100;
+    width: 100px;
     height: 100px;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-content, .hero-image {
+    flex: 1;
+}
+
+
+.hero-logo {
+    height: 80px;
+}
+
+.hero-image {
+    height: 50vmax;
 }
