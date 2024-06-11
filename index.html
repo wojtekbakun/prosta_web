@@ -3,82 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Strona główna</title>
+    <title>Prosta - nauka matematyki</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <nav>
-      <ul class="nav-list">
-        <li class="nav-item"><a href="#">Strona główna</a></li>
-        <li class="nav-item"><a href="#">Funkcje</a></li>
-        <li class="nav-item"><a href="#">O nas</a></li>
-        <li class="nav-item-photo">
-          <img
-            class="nav-photo"
-            src="images/prosta_logo-1.png"
-            alt="Logo Prosta Nauka Matematyki"
-          />
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Strona główna</a></li>
+          <li class="nav-item"><a href="#">Funkcje</a></li>
+          <li class="nav-item"><a href="#">O nas</a></li>
+          <li class="nav-item-photo">
+            <img
+              class="nav-photo"
+              src="images/prosta_logo-1.png"
+              alt="Logo Prosta Nauka Matematyki"
+            />
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-    <section id="hero">
-      <h1 class="hero-title">Prosta - nauka matematyki</h1>
-      <ul>
-        <li>
-          <p class="hero-text">Nauka matematyki z nami jest</p>
-        </li>
-        <li>
+    <section id="intro">
+      <h1 class="section-title">Prosta - nauka matematyki</h1>
+      <div class="intro">
+        <div class="intro-content">
+          <p class="intro-text">Nauka matematyki z nami jest</p>
+
           <img
-            class="hero-logo"
+            class="intro-logo"
             src="images/prosta_logo-1.png"
             alt="Małe Logo Prosta Nauka Matematyki"
           />
-        </li>
-        <li>
-          <button class="download-button">Pobierz aplikację</button>
-        </li>
 
-        <li>
+          <button class="download-button">Pobierz aplikację</button>
+        </div>
+
+        <div class="intro-content">
           <img
-            class="hero-image"
+            class="intro-photo-main"
             src="images/prosta_main.png"
             alt="Zrzut ekranu z aplikacji mobilnej Prosta Nauka Matematyki"
           />
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
 
     <section id="download-app">
-      <main>
-        <p>Pobierz aplikację.</p>
-        <button class="download-button">Pobierz z Apple Store</button>
-        <button class="download-button">Pobierz z Google Play</button>
-      </main>
-      <ul>
-        <li></li>
-      </ul>
+      <h1 class="section-title">POBIERZ APLIKACJĘ</h1>
+      <button class="download-button">Pobierz z Apple Store</button>
+      <button class="download-button">Pobierz z Google Play</button>
     </section>
 
     <section id="about-us">
-      <h2>O nas</h2>
-      <h3>AGA</h3>
-      <h4>
-        Korepetytorka z wieloletnim doświadczeniem i świetnymi opiniami.
-        Uwielbia przekazywać swoją wiedzę i współpracować z młodzieżą.
-      </h4>
-      <h3>WOJTEK</h3>
-      <h4>
-        Twórca programistycznej części aplikacji, lubiący podążać własną
-        ścieżką. Uwielbia Agę i pracę nad różnorodnymi projektami.
-      </h4>
+      <h1 class="section-title">O NAS</h1>
+      <div class="about-us">
+        <div class="about-us-intro">
+          <h3 class="about-us-name">AGA</h3>
+          <h4 class="about-us-text">
+            Korepetytorka z wieloletnim doświadczeniem i świetnymi opiniami.
+            Uwielbia przekazywać swoją wiedzę i współpracować z młodzieżą.
+          </h4>
+        </div>
+        <div>
+          <img src="images/my.png" alt="KorepetytorzyWojtek i Agnieszka" />
+        </div>
+        <div class="about-us-intro">
+          <h3 class="about-us-name">WOJTEK</h3>
+          <h4 class="about-us-text">
+            Twórca programistycznej części aplikacji. Uwielbia Agę i pracę nad
+            różnorodnymi projektami.
+          </h4>
+        </div>
+      </div>
     </section>
 
     <section id="contact-us">
-      <h2>Kontakt</h2>
-      <h3>e-mail</h3>
-      <h4>prostakontakt@gmail.com</h4>
+      <h1 class="section-title">KONTAKT</h1>
+      <h2>e-mail</h2>
+      <h3>prostakontakt@gmail.com</h3>
     </section>
 
     <footer>

@@ -37,7 +37,6 @@ main {
 }
 
 
-
 .nav-item a {
 display: block;
     color: white;
@@ -50,31 +49,72 @@ display: block;
     background-color: #111;
 }
 
-.main-text {
-    float: left;
-
-}
-
-.main-photo {
-    width: 100px;
-    height: 100px;
-}
-
-#hero {
+.intro {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
-.hero-content, .hero-image, .hero-text {
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     flex: 1;
+
 }
 
+.intro-photo-main {
+    width: 1000px;
+}
 
-.hero-logo {
+.intro-photo {
+    width: 300px;
+    height: auto;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-logo {
     height: 80px;
+    max-width: 100%;
 }
 
-.hero-image {
-    height: 50vmax;
+.section-title {
+    justify-content: center;
+    font-size: 2em;
+    margin: 1em 0;
+    color: #1c856f;
+    display: flex;
+}
+
+.about-us {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* Ustawia elementy w kolumnie */
+
+}
+
+.about-us-intro {
+    display: flex;
+    flex-direction: column; /* Ustawia elementy w kolumnie */
+    justify-content: center; /* Wyrównuje elementy wertykalnie w pionie */
+    text-align: center; /* Centrowanie tekstu */
+}
+
+.about-us-name {
+    justify-content: center;
+    display: flex;
+    vertical-align: auto;
+}
+
+.about-us-text{
+    justify-content: center;
+    display: flex;
+    vertical-align: auto;
 }
