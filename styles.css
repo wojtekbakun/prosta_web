@@ -38,7 +38,7 @@ main {
 
 
 .nav-item a {
-display: block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -52,6 +52,7 @@ display: block;
 .intro {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .intro-content{
@@ -59,8 +60,12 @@ display: block;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    flex: 1;
+}
 
+.intro-logo{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-photo-main {
@@ -73,16 +78,12 @@ display: block;
 }
 
 .intro-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
+    font-size: 24px;
+    color: #1c856f;
 }
 
-.intro-logo {
-    height: 80px;
-    max-width: 100%;
-}
+
 
 .section-title {
     justify-content: center;
@@ -117,4 +118,44 @@ display: block;
     justify-content: center;
     display: flex;
     vertical-align: auto;
+}
+
+.download-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px auto;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.div-button-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-button-appstore {
+    width: 200px;
+    height: auto;
+}
+.image-button-googleplay {
+    width: 250px;
+    height: auto;
 }
