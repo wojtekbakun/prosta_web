@@ -79,7 +79,9 @@ main {
 
 .intro-text{
     text-align: center;
-    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
     color: #1c856f;
 }
 
@@ -158,4 +160,19 @@ main {
 .image-button-googleplay {
     width: 250px;
     height: auto;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
