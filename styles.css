@@ -6,14 +6,14 @@ body{
 }
 
 header, footer{
-    background-color: #333;
+    background-color: #1c856f;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 5px 0;
 }
 
 main {
-    padding: 1em;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -111,20 +111,16 @@ main {
     display: flex;
 }
 
-.about-us {
-    flex: 1;
+.about-us-section {
     display: flex;
     flex-direction: row;
-    /* Ustawia elementy w kolumnie */
-
 }
 
-.about-us-intro {
-    display: flex;
+.about-us-column {
+    flex: 1;
     flex-direction: column; /* Ustawia elementy w kolumnie */
     justify-content: center; /* Wyrównuje elementy wertykalnie w pionie */
     text-align: center; /* Centrowanie tekstu */
-    flex:1;
 }
 
 .about-us-name {
@@ -142,10 +138,17 @@ main {
 }
 
 .about-us-text{
-    width: 200px;
+    width: 240px;
+    margin: auto;
     font-weight: lighter;
     font-size: 14;
     color: #0e4337;
+}
+
+.about-us-image {
+    padding-top: 30px;
+    width: 400px;
+    justify-content: center;
 }
 
 .download-section {
@@ -188,17 +191,35 @@ main {
     height: auto;
 }
 
-.two-columns {
+.three-columns {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    margin-top: 50px;
 }
 
 .column {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.section-title-2 {
+    justify-content: start;
+    font-size: 20px;
+    margin: 1em 0;
+    color: #1c856f;
+    display: flex;
+}
+
+.column-text {
+    justify-content: start;
+    text-align: start;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #0e4337;
+    display: flex;
 }
