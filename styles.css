@@ -3,13 +3,21 @@ body{
     margin: 0;
     padding: 0;
     background-color: #e2e7f0;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 header, footer{
-    background-color: #1c856f;
-    color: #fff;
+    color: #1c856f;
     text-align: center;
     padding: 5px 0;
+    border-radius: 10px;
+}
+
+footer {
+    padding-top: 20px;
 }
 
 main {
@@ -39,20 +47,23 @@ main {
 
 .nav-item a {
     display: block;
-    color: white;
+    color: #0e4337;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .nav-item a:hover {
-    background-color: #111;
+    background-color: #fff;
+border-radius: 20px;
 }
 
 .intro {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .intro-content{
@@ -63,7 +74,7 @@ main {
 }
 
 .intro-logo{
-    width: 400px;
+    width: 350px;
     justify-content: center;
     align-items: center;
 }
@@ -82,8 +93,10 @@ main {
 }
 
 .intro-photo-main {
+    margin-left: 20px;
+    margin-top: 20px;
     width: auto;
-    height: 100%;
+    height: 110%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -97,7 +110,7 @@ main {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 34px;
     color: #1c856f;
 }
 
@@ -105,7 +118,7 @@ main {
 
 .section-title {
     justify-content: center;
-    font-size: 2em;
+    font-size: 34px;
     margin: 1em 0;
     color: #1c856f;
     display: flex;
@@ -114,6 +127,7 @@ main {
 .about-us-section {
     display: flex;
     flex-direction: row;
+    padding-bottom: 50px;
 }
 
 .about-us-column {
@@ -126,7 +140,7 @@ main {
 .about-us-name {
     justify-content: center;
     font-weight: bolder;
-    font-size: 34px;
+    font-size: 28px;
     color: #0e4337;
 }
 
@@ -146,9 +160,11 @@ main {
 }
 
 .about-us-image {
+    border-radius: 20px;
     padding-top: 30px;
     width: 400px;
     justify-content: center;
+
 }
 
 .download-section {
@@ -156,10 +172,11 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #4b9fc2;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -169,26 +186,35 @@ main {
     margin: 20px auto;
     cursor: pointer;
     width: 200px;
+    border-radius: 20px;
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: white;
+    color: #0e4337;
 }
 
-.div-button-download {
+.button-download {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    text-align: center;
+    gap: 20px;
+}
+
+.download-text {
+    justify-content: center;
+    font-weight: 100;
+    font-size: 16px;
+    color: #0e4337;
+    padding-bottom: 20px;
 }
 
 .image-button-appstore {
-    width: 200px;
-    height: auto;
+    width: 120px;
+    margin-top: 10px;
 }
 .image-button-googleplay {
-    width: 250px;
-    height: auto;
+    width: 155px;
 }
 
 .three-columns {
@@ -197,6 +223,7 @@ main {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    margin-left: 10px;
 }
 
 .column {
@@ -204,7 +231,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-left: 20px;
+    text-align: start;
 }
 
 .section-title-2 {
