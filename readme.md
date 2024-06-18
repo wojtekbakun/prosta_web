@@ -2,6 +2,8 @@
 
 Witam Cię w projekcie, którym jest strona internetowa do mojej aplikacji mobilnej!
 
+Strona jest tymczasowo dostępna pod adresem: http://dfrzmie.cluster029.hosting.ovh.net/index.html
+
 ## Spis treści
 
 - [Opis](#opis)
